@@ -12,9 +12,10 @@ separate from your day-to-day environment. The following instructions assume you
 $ conda create -n test python=3.7.4
 $ conda activate test
 ```
-- Clone this repo into your directory.
+- Clone this repo into your directory and navigate into the folder.
 ```bash
 $ git clone https://github.com/eltrompetero/pivotal.git
+$ cd pivotal
 ```
 - Run setup script.
 ```bash
