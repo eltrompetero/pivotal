@@ -14,14 +14,15 @@ $ conda activate test
 ```
 - Clone this repo into your directory.
 ```bash
-$ git clone https://github.com/eltrompetero/pivotal
+$ git clone https://github.com/eltrompetero/pivotal.git
 ```
 - Run setup script.
 ```bash
-$ bash setup.sh
+$ ./setup.sh
 ```
 - Create pairwise maximum entropy files for a spin system of size 10 as detailed in [ConIII
-  doc](https://github.com/eltrompetero/coniii). Once in the ConIII installation directory, you should run
+  installation documentation](https://github.com/eltrompetero/coniii). Once in the ConIII installation
+  directory, you should run
 ```bash
 $ python enumerate.py 10 1
 ```
